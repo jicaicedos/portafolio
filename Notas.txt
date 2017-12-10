@@ -1,0 +1,21 @@
+Comprar dominio
+
+- www.namecheap.com
+
+Configurando
+- @
+- 192.30.252.153
+
+
+- @
+- 192.30.252.154
+
+
+- CNAME Record
+- www
+- jicaicedos.github.io/portafolio
+
+- CNAME Record
+- www
+- jicaicedosfrontbackend.com
+
