@@ -98,8 +98,8 @@ footer p strong {
 	}
 
 	.avatar {		
-		width: 320px;
-		height: 320px;
+		width: 220px;
+		height: 220px;
 	}
 
 	.menu li a {
@@ -120,6 +120,10 @@ footer p strong {
 }
 
 @media (min-width: 767px) {
+	body {
+		text-align: center;
+	}
+
 	.avatar {		
 		width: 320px;
 		height: 320px;
