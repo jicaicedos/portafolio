@@ -63,8 +63,8 @@ footer p strong {
 }
 
 .fullstack-item {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: auto;
 	border-radius: 50%;
 	margin-top: 1em;
 	margin-bottom: 1em;
