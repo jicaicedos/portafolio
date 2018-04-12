@@ -1,0 +1,108 @@
+footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: #392B4C;
+}
+
+footer h2 {
+	text-align: center;
+	color: white;
+}
+
+footer p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+
+footer p strong {
+	color: white;
+}
+
+.avatar {
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	border: 4px solid lightgray;
+	margin: 1em;
+}
+
+.presentacion {
+	background: #F0ECF1;
+}
+
+.slogan {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.slogan-texto {
+	font-size: 32px;
+}
+
+.franja {
+	background: #F0ECF1;
+	border-top: 1px solid #CDC2D5;
+	border-bottom: 1px solid #CDC2D5;	
+}
+
+.fullstack {
+	background: #E2D7FA;
+}
+
+.card-separar {
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+.fullstack-item {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: 2px solid lightgray;
+}
+
+.menu {
+	background: #392B4C;
+}
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+@media (min-width: 575px) and (max-width: 767px) {
+	body {
+		text-align: center;
+	}
+
+	.slogan {
+		display: block;
+	}
+
+	.slogan-texto {
+		font-size: 16px;
+	}
+
+	.avatar {		
+		width: 320px;
+		height: 320px;
+	}
+
+/*	.card {
+		width: 12em;
+	}
+*/
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+}
