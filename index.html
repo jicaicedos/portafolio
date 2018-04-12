@@ -20,13 +20,13 @@
 <body>
 	<nav>
 		<ul class="nav justify-content-center menu">
-			<li class="nav-item"><a class="nav-link" href="">Inicio</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Full-Stack</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-			<li class="nav-item"><a class="nav-link" href="">Contáctame</a></li>
+			<li class="nav-item"><a class="nav-link" href="#inicio_section">Inicio</a></li>
+			<li class="nav-item"><a class="nav-link" href="#fullstack_section">Full-Stack</a></li>
+			<li class="nav-item"><a class="nav-link" href="#portafolio_section">Portfolio</a></li>
+			<li class="nav-item"><a class="nav-link" href="#contactame_section">Contáctame</a></li>
 		</ul>
 	</nav>
-	<div class="container">
+	<div class="container" id="inicio_section">
 		<div class="row justify-content-center">
 			<div class="col-sm">
 				<img class="avatar" src="images/avatar.jpg" alt="" />
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid franja">
+	<div class="container-fluid franja" id="fullstack_section">
 		<br>
 		<h2 style="text-align: center;">Stack de desarrollo</h2>
 		<div class="row justify-content-center align-items-center">
@@ -79,13 +79,16 @@
 				<img class="fullstack-item" src="images/mongodb_logo.png" alt="">
 			</div>
 			<div class="col-md-auto">
-				<h3>Repositorios</h3>
+				<h3> <a href="https://github.com/jicaicedos?tab=repositories">Repositorios</a> </h3>
 			</div>
 			<div class="col-md-auto">
-				<img class="fullstack-item" src="images/github.png" alt="">
-			</div>		</div>
+				<a href="https://github.com/jicaicedos?tab=repositories">
+					<img class="fullstack-item" src="images/github.png" alt="">
+				</a>
+			</div>		
+		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="portafolio_section">
 		<br>
 		<h2>Los siguientes son algunos de mis más recientes desarrollos</h2>
 		<div class="row justify-content-center">
@@ -116,10 +119,6 @@
 			    	<p class="card-text">Herramienta para que las Instituciones Educativas realicen Olimpiadas Matemáticas - <strong>Rol Estudiante</strong></p>
 			 	</div>
 			</div>			
-<!-- 		</div>
-		<br>
-		<div class="row justify-content-center">
- -->			
  			<div class="col-md-4 card card-separar" style="width: 20rem;">
 				<iframe class="card-img-top" width="300" height="240" src="https://www.youtube.com/embed/_kSdVdIrmWA" 
 					frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>					
@@ -140,8 +139,8 @@
 			</div>			
 		</div>
 	</div>
-	<footer class="menu">
-		<h2>Encuéntrame en</h2>
+	<footer class="menu" id="contactame_section">
+		<h2 >Encuéntrame en</h2>
 		<ul class="social" style="text-align: center;">
 			<li><a href="https://www.linkedin.com/in/javier-caicedo-02467a7a/" class="icon fa-linkedin"><span class="label"></span>LinkedIn</a></li>
 			<li><a href="https://github.com/jicaicedos" class="icon fa-github"><span class="label"></span>Github</a></li>
